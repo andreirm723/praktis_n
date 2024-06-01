@@ -20,7 +20,7 @@
     </section>
     <div class="card card-primary"  style="margin-left:250px; margin-right:250px;">
               <div  class="bg bg-warning card-header " >
-                <h3  class="card-title">Add new employee</h3>
+                <h3  class="card-title">Add New employee</h3>
                 
               </div>
               <!-- /.card-header -->
