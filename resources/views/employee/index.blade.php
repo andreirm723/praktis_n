@@ -19,12 +19,27 @@
       </div><!-- /.container-fluid -->
     </section>
     <div class="card card-primary"  style="margin-left:250px; margin-right:250px;">
+<<<<<<< HEAD
+=======
+
+              <div  class="bg bg-warning card-header " >
+                <h3  class="card-title">Add New employee</h3>
+                
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form  class="bg bg-secondary"style="padding:20px; " method="POST" action="save">
+>>>>>>> bc155422414917b2c6ae30a2a0a64c7fff42b457
               <div  style="Background-color:white; color:black" class="card-header " >
                 <h3  class="card-title">Add new employee</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form  style="padding:20px; " method="POST" action="save">
+<<<<<<< HEAD
+=======
+>>>>>>> 8214c9137c2eeac2c18b2209e33c83b21b8cd8c7
+>>>>>>> bc155422414917b2c6ae30a2a0a64c7fff42b457
               @csrf
                 <div   style="margin-left:50px; margin-right:50px;" class="card-body">
                 <div class="form-group">
