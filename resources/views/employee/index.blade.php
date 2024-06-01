@@ -29,6 +29,13 @@
               <!-- /.card-header -->
               <!-- form start -->
               <form  class="bg bg-secondary"style="padding:20px; " method="POST" action="save">
+<<<<<<< HEAD
+            
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form  style="padding:20px; " method="POST" action="save">
+
+=======
 >>>>>>> bc155422414917b2c6ae30a2a0a64c7fff42b457
               <div  style="Background-color:white; color:black" class="card-header " >
                 <h3  class="card-title">Add new employee</h3>
@@ -40,9 +47,10 @@
 =======
 >>>>>>> 8214c9137c2eeac2c18b2209e33c83b21b8cd8c7
 >>>>>>> bc155422414917b2c6ae30a2a0a64c7fff42b457
+>>>>>>> 3f094ac4884823bc0721548b9edb804c2c319aca
               @csrf
-                <div   style="margin-left:50px; margin-right:50px;" class="card-body">
-                <div class="form-group">
+                <div   style="margin-left:50px; margin-right:50px;" class="form-row -flex">
+                <div class="col-md-4 mb-5">
                     <label for="exampleInputPassword1">Last Name</label>
                     <input type="text" class="form-control @error('lname') is-invalid @enderror" required autocomplete="lname" id="exampleInputPassword1" name="lname">
                 
@@ -52,21 +60,21 @@
                                     </span>
                                 @endif
                   </div>
-                  <div class="form-group">
+                  <div class="col-md-4 mb-5">
                     <label for="exampleInputEmail1">First Name</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" name="fname">
                   </div>
           
-                  <div class="form-group">
+                  <div class="col-md-4 mb-5">
                     <label for="exampleInputPassword1">Middle Name</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" name="mname">
                   </div>
-                  <div class="form-group">
+                  <div class="col-md-4 mb-5">
                     <label for="exampleInputPassword1">Address</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" name="address" >
                   </div>
 
-                  <div class="form-group">
+                  <div class="col-md-4 mb-5">
 
                   <label for="exampleInputPassword1">Country</label>
 
@@ -80,7 +88,7 @@
                   </div>
 
 
-                  <div class="form-group">
+                  <div class="col-md-4 mb-4">
 
                   <label for="exampleInputPassword1">State</label>
 
@@ -94,7 +102,7 @@
                   </div>
 
 
-                  <div class="form-group">
+                  <div class="col-md-4 mb-4">
 
                   <label for="exampleInputPassword1">City</label>
 
@@ -107,19 +115,19 @@
 
                   </div> 
 
-                  <div class="form-group">
+                  <div class="col-md-4 mb-4">
                     <label for="exampleInputPassword1">Zip</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" name="zip">
                   </div>
 
                   
-                  <div class="form-group">
+                  <div class="col-md-4 mb-4">
                     <label for="exampleInputPassword1">Birthday</label>
                     <input type="Date" class="form-control" id="exampleInputPassword1" name="bday">
                   </div>
 
 
-                  <div class="form-group">
+                  <div class="col-md-4 mb-4">
                     <label for="exampleInputPassword1">Hired Date</label>
                     <input type="Date"  class="form-control" id="exampleInputPassword1" name="hdate">
                   </div>
@@ -127,7 +135,7 @@
 
 
                   
-                  <div class="form-group">
+                  <div class="col-md-4 mb-4">
 
                   <label for="exampleInputPassword1">Department</label>
 
@@ -161,7 +169,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-warning">Submit</button>
                 </div>
               </form>
             </div>
