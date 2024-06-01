@@ -22,14 +22,28 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ __('About us') }}</h5>
 
+                           
+                            <p class="card-text">
+                                {{ __('Sample static text page ') }}
+                          
+                            </p>
+                            
+                        </div>
+                       
+
+
                             <p class="card-text">
                                 {{ __('Sample static text page ') }}
                             </p>
                         </div>
+
                     </div>
                 </div>
             </div>
             <!-- /.row -->
+
+            <H1>HELLO ANDREIiiii</H1>
+
         </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
