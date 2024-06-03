@@ -20,11 +20,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/practice', [\App\Http\Controllers\practiceController::class, 'practice'])->name('practice');
 
 Route::get('/employees', [\App\Http\Controllers\EmployeemgtController::class, 'employees'])->name('employees');
 Route::middleware('auth')->group(function () {
     Route::view('about', 'about')->name('about');
-
+   
     Route::get('users', [\App\Http\Controllers\UserController::class, 'index'])->name('users.index');
     Route::get('users', [\App\Http\Controllers\UserController::class, 'index'])->name('users.index');
     Route::get('employee', [\App\Http\Controllers\employeecontroller::class, 'index'])->name('employee.index');

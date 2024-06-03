@@ -51,6 +51,16 @@
                     </p>
                 </a>
                 </li>
+
+                <li class="nav-item">
+                <a href="{{ route('practice') }}" class="nav-link">
+                    <i class="nav-icon fas fa-link"></i>
+                    <p>
+                        Practice
+                        <i class="fas fa-angle-left right"></i>
+                    </p>
+                </a>
+                </li>
     </nav>
     <!-- /.sidebar-menu -->
 </div>
